@@ -1,0 +1,71 @@
+.circular-button {
+    width: 60px; /* Set the width and height for a circular shape */
+    height: 60px;
+    border-radius: 50%; /* Make it circular */
+    border: none; /* Remove default button border */
+    background-color: #edf0f1; /* Change background color */
+    /* color: white;  */
+    font-size: 25px; /* Adjust font size */
+    font-weight: 300;
+    cursor: pointer; /* Show pointer cursor on hover */
+    outline: none; /* Remove focus outline */
+    
+  }
+  .alphabet{
+    color: rgb(102, 101, 99);
+    font-size: 10px;
+  }
+  .keypad-body{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:10px;
+    grid-template-rows: repeat(3, auto);
+    max-width: fit-content;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #000;
+  }
+
+.keypad{
+    background-color: #f8fdff;
+    max-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.keypad-lastsection{
+    display: flex;
+    gap: 2rem;
+    margin-top: 10px;
+}
+
+.acceptcall{
+  background-color: #e0e0e0;
+  max-width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 10px 4rem 10px;
+  /* padding-bottom: 3rem; */
+}
+.keypad-header>div{
+  color: rgb(46, 139, 108);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 2rem;
+  
+}
+.keypad-header>div>input{
+  border-radius: 0;
+}
+
+.accpetcallIcons{
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  
+}
